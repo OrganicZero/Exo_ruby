@@ -2,16 +2,22 @@
 x = 0
 y = 0
 email = []
-
+	
 while y < 50
     y += 1
+    if y % 2 == 0
     if y <= 9
+    	
         email.insert(y - 1, "jean.dupont.#{x}#{y}@email.fr")
+    
     else
+    	
         email.insert(y - 1, "jean.dupont.#{y}@email.fr")
     end
 end
+end
+	
 
-puts email 
+puts email
 
 
